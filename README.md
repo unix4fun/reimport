@@ -43,4 +43,7 @@ it uses go/parser in order to accurately find the import lines (hence not patchi
 
 
 ## bleh
+there is also a tool, that i did not know before writing this, does not spit a patch and edit your files:
+https://github.com/golang/tools/blob/master/cmd/gomvpkg/main.go
+
 enjoy!
