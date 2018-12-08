@@ -192,7 +192,7 @@ func main() {
 	flag.Parse()
 	argv := flag.Args()
 
-	if len(*matchFlag) == 0 || len(*replaceFlag) == 0 || len(argv) == 0 {
+	if len(*matchFlag) == 0 || len(argv) == 0 {
 		fmt.Printf("invalid argument\n")
 		usage()
 		os.Exit(1)
